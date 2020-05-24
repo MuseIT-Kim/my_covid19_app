@@ -14,6 +14,7 @@
 		3C1571E42472E87C00C30D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1571E32472E87C00C30D9E /* Assets.xcassets */; };
 		3C1571E72472E87C00C30D9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1571E62472E87C00C30D9E /* Preview Assets.xcassets */; };
 		3C1571EA2472E87C00C30D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1571E82472E87C00C30D9E /* LaunchScreen.storyboard */; };
+		3C6BF39E247AB92B00188B1D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6BF39D247AB92B00188B1D /* Model.swift */; };
 		3CE6D1AE2472F0FF009C50F6 /* CovidFetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6D1AD2472F0FF009C50F6 /* CovidFetchRequest.swift */; };
 		B166D4DC016F327C5A9F429F /* Pods_my_covid19_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F58E99AAC09995CD24504C0 /* Pods_my_covid19_app.framework */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 		3C1571E62472E87C00C30D9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C1571E92472E87C00C30D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C1571EB2472E87C00C30D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6BF39D247AB92B00188B1D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		3CE6D1AD2472F0FF009C50F6 /* CovidFetchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidFetchRequest.swift; sourceTree = "<group>"; };
 		4F58E99AAC09995CD24504C0 /* Pods_my_covid19_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_my_covid19_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5959A334268BDD5396EC857 /* Pods-my_covid19_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-my_covid19_app.release.xcconfig"; path = "Target Support Files/Pods-my_covid19_app/Pods-my_covid19_app.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				3C1571DC2472E87C00C30D9E /* SceneDelegate.swift */,
 				3C1571E12472E87C00C30D9E /* ContentView.swift */,
 				3CE6D1AD2472F0FF009C50F6 /* CovidFetchRequest.swift */,
+				3C6BF39D247AB92B00188B1D /* Model.swift */,
 				3C1571E32472E87C00C30D9E /* Assets.xcassets */,
 				3C1571E82472E87C00C30D9E /* LaunchScreen.storyboard */,
 				3C1571EB2472E87C00C30D9E /* Info.plist */,
@@ -223,6 +226,7 @@
 				3CE6D1AE2472F0FF009C50F6 /* CovidFetchRequest.swift in Sources */,
 				3C1571DB2472E87C00C30D9E /* AppDelegate.swift in Sources */,
 				3C1571E02472E87C00C30D9E /* my_covid19_app.xcdatamodeld in Sources */,
+				3C6BF39E247AB92B00188B1D /* Model.swift in Sources */,
 				3C1571E22472E87C00C30D9E /* ContentView.swift in Sources */,
 				3C1571DD2472E87C00C30D9E /* SceneDelegate.swift in Sources */,
 			);
