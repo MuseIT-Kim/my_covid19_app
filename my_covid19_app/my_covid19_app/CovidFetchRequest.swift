@@ -11,6 +11,9 @@ import Foundation
 
 class CovidFetchRequest : ObservableObject {
     
+    @Published var allCountries: [CountryData] = []
+    @Published var totalData: TotalData = testTotalData
+    
     init(){
         
         getCurrentTotal()
@@ -32,16 +35,16 @@ class CovidFetchRequest : ObservableObject {
                 if result != nil {
                     
                     let json = JSON(result!)
-                    //print(json)
+                    print(json)
                     
-                    let confirmed = json[0]["recovered"].intValue
+                    let confirmed = json[0]["confirmed"].intValue
                     let deaths = json[0]["deaths"].intValue
                     let recovered = json[0]["recovered"].intValue
                     let critical = json[0]["critical"].intValue
-                    let lastChange = json[0]["lastChange"].intValue
-                    let lastUpdate = json[0]["lastUpdate"].intValue
                     
-                    //TotalData(confirmed: recovered, critical: critical, deaths: deaths, recovered: recovered, lastChange: lastChange, lastUpdate: lastUpdate)
+                    self.totalData = TotalData(confirmed: confirmed, critical: critical, deaths: deaths, recovered: recovered)
+                } else {
+                    self.totalData = testTotalData
                 }
             }
         
